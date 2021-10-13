@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+</head>
+<body>
+
+    <div class="lap model lap">
+        <div class="time lap"></div>
+        <div class="time interval"></div>
+        <div class="time"></div>
+    </div>
+    
+    <main>
+        <div class="timer-area">
+            <div class="timer">
+                <div class="minutes">00:</div>
+                <div class="seconds">00</div>
+                <div class="milliseconds">.00</div>
+            </div>
+            <div class="controls">
+                <div class="reset" onclick="reset()">Reset</div>
+                <div class="start" onclick="start()">Start</div>
+                <div class="add-lap" onclick="lap()">Add lap</div>
+                <div class="stop" onclick="stopTimer()">Stop</div>
+            </div>
+        </div>
+        <div class="lap-area">
+            <div class="top">
+                <div class="title">Lap</div>
+                <div class="title">Interval</div>
+                <div class="title">Time</div>
+            </div>
+            <div class="lap model interval">
+                <div class="time lap"></div>
+                <div class="time interval"></div>
+                <div class="time"></div>
+            </div>
+            <div class="addLap-area">
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>Made by - Douglas Alves ©</footer>
+
+</body>
+</html>
